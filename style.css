@@ -10,3 +10,12 @@ body{
   
   background-color: black;
 }
+
+.navbar{
+ 
+  background-color: red;
+  overflow: hidden;
+  display: block;
+  top: 10;
+ 
+}
