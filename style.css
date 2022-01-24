@@ -1,3 +1,31 @@
+
+
+.navbar a{
+  
+  text-decoration: none;
+  color: black;
+  float: right;
+  padding: 10px 44px;
+  font-size: 20px;
+  
+}
+
+
+
+.navbar{
+ 
+  background-color: red;
+  overflow: hidden;
+  display: block;
+  top: 10;
+ 
+}
+
+.navbar a:hover {
+  background-color: green;
+}
+
+
 h1{
   
   color: red;
@@ -11,26 +39,3 @@ body{
   background-color: black;
 }
 
-
-.navbar a{
-  
-  text-decoration: none;
-  color: black;
-  float: right;
-  padding: 10px 44px;
-  font-size: 20px;
-  
-}
-
-.navbar a:hover {
-  background-color: green;
-}
-
-.navbar{
- 
-  background-color: red;
-  overflow: hidden;
-  display: block;
-  top: 10;
- 
-}
