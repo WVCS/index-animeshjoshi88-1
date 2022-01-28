@@ -1,49 +1,92 @@
-body {
+.navbar{
+ 
+  background-color: red;
+  overflow: hidden;
+  display: block;
+  top: 10;
+ 
+}
+h1{
+  font-size: 27px;
+  font-family: calibri;
+ 
+}
+img{
+  border: 2px solid red;
+}
+
+.navbar a{
+  
+  text-decoration: none;
+  color: black;
+  float: right;
+  padding: 10px 44px;
+  font-size: 20px;
+  
+}
+
+.navbar a:hover {
   background-color: green;
 }
-h1 {
+body{
   
-  color: black;
-  font-size: 25px;
-  text-align: center;
+  background-color: black;
+}
+h1{
+  color: red;
   background-color: white;
-  border: 3px black dashed;
-  letter-spacing: 1px;
+}
+p{
+  color: red;
   font-family: calibri;
   
-  
-}
-
-iframe{
-  border: solid white 2px;
-}
-
-li, p {
-  color: gold;
   font-size: 15px;
- list-style-type: circle;
-
 }
 
 table {
-  border: 1px solid white;
-  color: black;
+  border: 1px solid red;
+  color: Orange;
     border-collapse: collapse;
   padding: 10px;
   width: 35%;
 }
 
 tr, td, th {
-  border: 1px solid white;
+  border: 1px solid red;
   border-collapse: collapse;
   padding: 10px;
   text-align: center;
 }
-
-tr:hover {
-  background-color: red;
+waysTo{
+  
+  color: white;
 }
 
-tr:nth-child(even) {background-color: gold;}
-
 tr:nth-child(even):hover {background-color: red;}
+d;}
+
+ul{
+  color: red;
+  float: left;
+}
+li{
+  color: red;
+  float: left;
+  list-style-type: circle;
+  margin: 2px;
+  padding: 12px;
+}
+h6{
+  float: left;
+  color: red;
+  font-size: 17px;
+}
+.mickey{
+  text-align: center;
+  display: inline;
+  
+}
+
+
+
+
