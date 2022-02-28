@@ -1,0 +1,72 @@
+.wrapper{
+  
+  height: 900px;
+  display: grid;
+  
+  grid-template:
+    
+    "A B C" auto
+    
+    "D E F";
+  grid-template-columns: 50%  50%;
+    grid-row-gap: 3%;
+
+    
+    
+}
+
+body{
+  background-color: red;
+}
+.navbar{
+ border: none;
+  background-color:red;
+  overflow: hidden;
+  display: block;
+  top: 0;
+  
+ 
+}
+.logo{
+  float: left;
+}
+.navbar a{
+  
+  text-decoration: none;
+  color: white;
+  float: right;
+  padding: 10px 44px;
+  font-size: 20px;
+  font-family: calibri;
+  font-weight: bold;
+ 
+  
+}
+
+.navbar a:hover {
+  background-color: grey;
+}
+
+.c{
+  grid-row: 2 / 3;
+}
+.d{
+  grid-row: 2/3;
+}
+.e{
+  grid-row: 3/4;
+}
+
+p{
+  
+  color: red;
+}
+/* row line/column line/end row/end column*/
+.info{
+  
+}
+div{
+  
+  background-color: yellow;
+  border: solid 1px white;
+}
