@@ -1,0 +1,159 @@
+
+
+.navbar a{
+  
+  text-decoration: none;
+  color: gold;
+  float: right;
+  padding: 10px 44px;
+  font-size: 20px;
+  font-family: calibri;
+  font-weight: bold;
+ 
+  
+}
+
+
+
+.navbar a:hover {
+  background-color:grey;
+}
+
+.mickey a: hover{
+  background-color: red;
+}
+
+body{
+  background-color: black;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  
+}
+
+/* Hide the images by default */
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 100%;
+  width: auto;
+  margin-top: 0px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.wrapper{
+  
+  height: 900px;
+  display: grid;
+  
+  grid-template:
+    
+    "A B C" auto
+    
+    "D E F";
+  grid-template-columns: 50%  50%;
+    grid-row-gap: 3%;
+
+    
+    
+}
+
+button{
+    text-align: center;
+  float: right;
+}
+.button1{
+   border: white 1px solid;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+
+  display: inline-block;
+  font-size: 12px;
+  margin: 1px 350px;
+  background-color: black;
+ 
+  cursor: pointer;
+
+}
+.c{
+  grid-row: 2 / 3;
+}
+.d{
+  grid-row: 2/3;
+}
+.e{
+  grid-row: 3/4;
+}
+.j{
+  5/6;
+}
+p{
+  
+  color: black;
+}
+/* row line/column line/end row/end column*/
+table {
+  border: 1px solid white;
+  color: black;
+    border-collapse: collapse;
+  padding: 10px;
+  width: 35%;
+}
+
+tr, td, th{
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+.a,.b,.c,.d{
+  
+  background-color: gold;
+  border: solid 1px white;
+}
+.mickey{
+  
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.mySlides{
+  
+  border: none;
+}
+
+@media only screen and (max-width: 1024px){
+  .wrapper{
+     display: flex;
+    flex-wrap: wrap;
+    
+     
+}
+
+  } 
+
+
