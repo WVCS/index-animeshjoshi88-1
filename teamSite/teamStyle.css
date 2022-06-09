@@ -14,6 +14,11 @@
   
 }
 
+h6{
+  color: red;
+  background-color: black;
+}
+
 #bars{
   float: right;
   
